@@ -14,17 +14,18 @@ BLOG APP Includes:
   ```dif
   + Login (with Remember me)    Completed
   + Registration                Completed
-  - Email confirmation          Completed
-  - Password Reset              Completed
-  - Blog CRUD                   Completed
-  - Blog pagination             Completed
-  - Blog category search        Completed
-  - Blog REST_API methods       Completed
-  - Blog Auth and Authorization Completed
+  + Email confirmation          Completed
+  + Password Reset              Completed
+  + Blog CRUD                   Completed
+  + Blog pagination             Completed
+  + Blog category search        Completed
+  + Blog REST_API methods       Completed
+  + Blog Auth and Authorization Completed
   ```
+  ```dif
   - Blog Comments CRUD          Uncompleted
   - Blog Post Like and Dislike  Uncompleted
-  
   - Admin CMS                   Uncompleted
+  ```
 
 
