@@ -5,6 +5,7 @@ Social Network Media
 
 Languages used for this APP:
   - PHP OOP MVC with PDO
+  - Htaccess apache configuration file
   - JS with FETCH API
   - BOOTSTRAP 5
   - CSS 3
