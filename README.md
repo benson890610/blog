@@ -24,9 +24,11 @@ BLOG APP Includes:
   + Blog Auth and Authorization Completed
   ```
   ```dif
-  - Blog Comments CRUD          Uncompleted
-  - Blog Post Like and Dislike  Uncompleted
-  - Admin CMS                   Uncompleted
+  - Blog Comments CRUD            Uncompleted
+  - Blog Post Like and Dislike    Uncompleted
+  - User Profile Preview          Uncompleted
+  - User Feedback Rating          Uncompleted
+  - Admin CMS                     Uncompleted
   ```
 
 
