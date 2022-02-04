@@ -1,0 +1,26 @@
+{   
+    "description": "Social Network blog community for developers",
+    "require": {
+        "phpmailer/phpmailer": "^6.5",
+        "vlucas/phpdotenv": "^5.4",
+        "intervention/image": "^2.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/src/",
+            "App\\Controllers\\": "app/src/controllers/",
+            "App\\Models\\": "app/src/models/",
+            "App\\Utilities\\": "app/src/utilities",
+            "App\\Tools\\": "app/src/tools"
+        },
+        "files": [
+                "app/helpers/url.php", 
+                "app/helpers/debug.php", 
+                "app/helpers/inputs.php",
+                "app/helpers/validation.php", 
+                "app/helpers/dates.php",
+                "app/helpers/pagination.php",
+                "app/helpers/session.php"
+                ]
+    }
+}

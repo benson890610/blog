@@ -1,0 +1,38 @@
+USER NOTICE		2021-November-24	11:07:14	syntax error, unexpected string content ";"	/var/www/html/php/projects/blog/public/index.php	31	
+
+USER NOTICE		2021-November-24	11:08:11	Typed property App\Models\User::$id must not be accessed before initialization	/var/www/html/php/projects/blog/public/index.php	31	
+
+WARNING		2021-November-24	11:15:44	Undefined array key "user_id"	/var/www/html/php/projects/blog/app/src/models/User.php	39	
+
+USER NOTICE		2021-November-24	11:15:44	Cannot assign null to property App\Models\User::$id of type int	/var/www/html/php/projects/blog/public/index.php	31	
+
+WARNING		2021-November-24	11:17:28	Undefined array key "star_rating"	/var/www/html/php/projects/blog/app/src/models/User.php	47	
+
+USER NOTICE		2021-November-24	11:17:28	Cannot assign null to property App\Models\User::$src_path of type string	/var/www/html/php/projects/blog/public/index.php	31	
+
+WARNING		2021-November-24	11:19:21	Undefined array key "star_rating"	/var/www/html/php/projects/blog/app/src/models/User.php	47	
+
+USER NOTICE		2021-November-24	12:36:27	Class "App\Controllers\Controller" not found	/var/www/html/php/projects/blog/public/index.php	31	
+
+WARNING		2021-November-24	12:38:14	Undefined array key "star_rating"	/var/www/html/php/projects/blog/app/src/models/User.php	47	
+
+WARNING		2021-November-24	12:40:27	Undefined array key "star_rating"	/var/www/html/php/projects/blog/app/src/models/User.php	47	
+
+WARNING		2021-November-24	12:42:54	Undefined array key "star_rating"	/var/www/html/php/projects/blog/app/src/models/User.php	47	
+
+WARNING		2021-November-24	12:43:49	session_destroy(): Trying to destroy uninitialized session	/var/www/html/php/projects/blog/app/src/controllers/UsersController.php	24	
+
+WARNING		2021-November-24	12:47:09	Undefined array key "star_rating"	/var/www/html/php/projects/blog/app/src/models/User.php	47	
+
+WARNING		2021-November-24	12:47:09	Undefined variable $_SESSION	/var/www/html/php/projects/blog/app/views/posts/index.php	3	
+
+WARNING		2021-November-24	12:47:09	Trying to access array offset on value of type null	/var/www/html/php/projects/blog/app/views/posts/index.php	3	
+
+WARNING		2021-November-24	12:47:09	Undefined variable $_SESSION	/var/www/html/php/projects/blog/app/views/posts/index.php	5	
+
+WARNING		2021-November-24	12:47:09	session_destroy(): Trying to destroy uninitialized session	/var/www/html/php/projects/blog/app/views/posts/index.php	8	
+
+WARNING		2021-November-24	12:49:00	Undefined array key "star_rating"	/var/www/html/php/projects/blog/app/src/models/User.php	47	
+
+WARNING		2021-November-24	12:49:51	Undefined array key "msg"	/var/www/html/php/projects/blog/app/views/posts/index.php	3	
+

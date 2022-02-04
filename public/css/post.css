@@ -1,0 +1,347 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h1, h3, h5 {
+	font-family: 'Nunito', sans-serif;
+}
+
+.relative {
+	position: relative;
+}
+
+.br-50 {
+	border-radius: 50%;
+}
+
+.hr-color {
+	color: white;
+}
+
+.hidden {
+	display: none;
+}
+
+.d-flex-between {
+	display: flex;
+	justify-content: space-between;
+}
+
+.d-flex-end {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.d-flex-between-center {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.d-flex-end {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+#main-body {
+	position: relative;
+	background-color: #2D262E;
+}
+
+#main-heading {
+	color: white;
+}
+
+#post-header {
+	width: 100%;
+	margin-top: 50px;
+}
+
+.switch {
+	position: relative;
+	width: 50px;
+	height: 30px;
+	top: 12px;
+}
+
+.switch input {
+	opacity: 0;
+	width: 0;
+	height: 0;
+}
+
+.slider {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	background-color: #CCC;
+	transition: all .4s ease;
+}
+
+.slider:before {
+	position: absolute;
+	content: "";
+	height: 26px;
+	width: 26px;
+	left: 2px;
+	bottom: 2px;
+	background-color: white;
+	transition: all .4s ease;
+}
+
+input:checked + .slider {
+	background-color: #2196F3;
+}
+
+input:focus + .slider {
+	box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+	transform: translateX(20px);
+}
+
+.slider.round {
+	border-radius: 30px;
+}
+
+.slider.round:before {
+	border-radius: 50%;
+}
+
+.card-body h5 {
+	position: relative;
+	top: -5px;
+}
+
+.hr-white {
+	color: white;
+}
+
+.select-box-area {
+	position: relative;
+	width: 100%;
+}
+
+.select-box-area .select-category {
+	display: none;
+}
+
+.selected-element {
+	background-color: DodgerBlue;
+}
+
+.selected-element:after {
+	position: absolute;
+	content: "";
+	top: 18px;
+	right: 10px;
+	width: 0;
+	height: 0;
+	border: 6px solid transparent;
+	border-color: #FFF transparent transparent transparent;
+}
+
+.selected-element.arrow-up:after {
+	border-color: transparent transparent #FFF transparent;
+	top: 9px;
+}
+
+.options-div div, .selected-element {
+	color: #FFF;
+	padding: 8px 16px;
+	border-width: 1px;
+	border-style: solid;
+	border-color:  transparent transparent rgba(0,0,0,0.1) transparent;
+	cursor: pointer;
+	user-select: none;
+}
+
+.options-div {
+	position: absolute;
+	background-color: dodgerblue;
+	top: 100%;
+	left: 0;
+	right: 0;
+	z-index: 99;
+}
+
+.hide-options-div {
+	display: none;
+}
+
+.options-div div:hover, .option-selected {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+.pagination {
+	width: 100%;
+	height: auto;
+}
+
+.pagination-link, .prev-link, .next-link {
+	position: relative;
+	background-color: Dodgerblue;
+	color: white;
+	padding: 5px 10px;
+	border-radius: 2px;
+}
+
+.pagination-link:not(:first-child), .next-link {
+	margin-left: 15px;
+}
+
+.pagination-link-selected, .prev-link-selected, .next-link-selected {
+	background-color: #001F3F;
+}
+
+#upload-image-content {
+	position: relative;
+	width: 100%;
+	height: 0px;
+	padding: 0px;
+	transition: all .6s ease;
+}
+
+#file {
+	display: none;
+}
+
+#label-file {
+	border: 1px solid white;
+	padding: 5px;
+	color: white;
+	cursor: pointer;
+	transition: all .5s ease;
+}
+
+#label-file:hover {
+	border-color: dodgerblue;
+	background-color: dodgerblue;
+}
+
+.upload-image-close-btn {
+	position: absolute;
+	top: 5px;
+	right: 10px;
+	font-size: 20px;
+	font-weight: normal;
+	cursor: pointer;
+}
+
+#output-message {
+	transition: all .5s ease;
+}
+
+.success {
+	background-color: #3D9970;
+	padding: 10px;
+	color: white;
+}
+
+/* Progress Bar */
+
+#progress-bar {
+	height: 15px;
+	width: 100%;
+	background-color: transparent;
+	margin: 0 15px;
+}
+
+#progress-bar-fill {
+	transition: all .5s linear;
+	height: 15px;
+	width: 0%;
+	background-color: #268C60;
+}
+
+#progress-bar-text {
+	height: 15px;
+	color: #ACACAC;
+	font-size: 12px;
+	display: block;
+	margin: 0 auto;
+	width: 20px;
+	text-align: center;
+}
+
+.upload-label-err {
+	border-color: red !important;
+}
+
+.my-posts-container {
+	width: 500px;
+	height: 400px;
+	padding: 20px;
+	background-color: white;
+	display: none;
+	position: absolute;
+	top: 0;
+	left: -500px;
+	z-index: 1000;
+	overflow: scroll;
+}
+
+.closeMyPostsBtn {
+	position: absolute;
+	left: 5px;
+	top: -2px;
+	cursor: pointer;
+	color: #696969;
+}
+
+.myPostsTotal {
+	position: absolute;
+	right: 5px;
+	top: 0;
+	font-size: 12px;
+}
+
+.myPostsWarning {
+	position: absolute;
+	top: 35%;
+	left: 25%;
+	color: white;
+	padding: 15px 5px;
+	background: rgba(105, 105, 105, 0.8);
+}
+
+.myPostsContainerContent {
+	position: relative;
+	background-color: black; 
+	border-radius: 3px;
+}
+
+.myPostsContainerTitle {
+	font-size: 14px; 
+	color: #F5F5DC !important;
+}
+
+.myPostsContainerDescription {
+	font-size: 10px; 
+	color: #F5F5DC !important;
+}
+
+.myPostsViews {
+	font-size: 10px; 
+	color: #F5F5DC !important;
+}
+
+.myPostsCreatedAt {
+	font-size: 10px; 
+	color: #F5F5DC !important;
+}

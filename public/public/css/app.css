@@ -1,0 +1,204 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+ul {
+    list-style-type: none;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.br-50 {
+    border-radius: 50%;
+}
+
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    background-color: #A9A9A9;
+    color: white;
+    text-shadow: 0 0 3px #000;
+}
+
+.buttons {
+    position: absolute;
+    top: -15px;
+    right: 15px;
+}
+
+.buttons button {
+    width: 40px !important;
+    height: 40px !important;
+    margin: 0 15px;
+}
+
+#canvas-image-blending {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 1467px;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -999;
+}
+
+.sign-in-h1 {
+    color: white;
+    text-shadow: 0 0 3px #000; 
+    font-family: 'Nunito';
+}
+
+.sign-in-form-label, .sign-up-form-label {
+    color: white;
+    text-shadow: 0 0 3px #000;
+    padding-left: 5px;
+}
+
+.p-relative {
+    position: relative;
+}
+
+.d-flex-between {
+    display: flex; 
+    justify-content: space-between;
+}
+
+.d-flex-end {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sign-in-register-link, .sign-up-login-link {
+    color: white;
+    padding-left: 12px;
+}
+
+.registration-sign-in-link {
+    text-decoration: none;
+}
+
+.sign-in-register-link a {
+    text-decoration: none;
+    transition: all .3s ease;
+}
+
+.sign-in-register-link a:hover {
+    color: orangered !important;
+}
+
+.sign-in-remember-label {
+    color: white;
+}
+
+.hidden {
+    height: 0;
+    opacity: 0;
+    pointer-events: none;
+}
+
+#toggle-password-visibility {
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    font-size: 26px;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+#toggle-sign-up-password-visibility {
+    position: absolute;
+    top: 40px;
+    right: 20px;
+    font-size: 26px;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+#toggle-sign-up-confirm-password-visibility {
+    position: absolute;
+    top: 40px;
+    right: 20px;
+    font-size: 26px;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+#file-content {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    height: auto;
+    border: 1px solid #CCC;
+    background: rgba(255, 255, 255);
+    margin-top: 10px;
+    padding: 10px;
+    color: white;
+    transition: all .4s ease;
+}
+
+#personal-address {
+    transition: all .4s ease;
+}
+
+.sign-in-error-field, .sign-up-error-field {
+    font-weight: bold;
+}
+
+.file-upload-label {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.valid-upload {
+    color: #2ECC40;
+    font-weight: bold;
+}
+
+.invalid-upload {
+    color: #CD5C5C;
+    font-weight: bold;
+}
+
+.personal-address-heading, .file-upload-label {
+    color: #7FDBFF;
+    text-shadow: 0 0 3px #000;
+    padding-left: 5px;
+}
+
+#upload-content {
+    background-color: white;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    width: 200px;
+    height: auto;
+    padding: 20px;
+}
+
+#upload-img { 
+    display: block;
+    width: 85%;
+    height: 85%;
+}
+
+.image-ok {
+    color: #3D9970;
+    margin-top: 10px;
+}
+
+.image-overlarge {
+    margin-top: 20px;
+    color: red;
+}

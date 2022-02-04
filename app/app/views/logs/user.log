@@ -1,0 +1,178 @@
+
+LOGIN	FAIL	Email address empty, Password field empty	127.0.0.1	38330	2021-December-13	15:36:45	
+
+LOGIN	FAIL	Email address invalid, Password field empty	127.0.0.1	38398	2021-December-13	15:59:14	
+
+LOGIN	FAIL	Email address empty, Password length is too short	127.0.0.1	38402	2021-December-13	15:59:51	
+
+LOGIN	FAIL	Email address empty	127.0.0.1	38404	2021-December-13	16:00:09	
+
+LOGIN	FAIL	Password field empty	127.0.0.1	38406	2021-December-13	16:00:26	
+
+LOGIN	FAIL	Password length is too short	127.0.0.1	38414	2021-December-13	16:00:33	
+
+LOGIN	FAIL	Email address incorrect	someone@gmail.com	127.0.0.1	38446	2021-December-13	16:09:15	
+
+LOGIN	FAIL	Password incorrect	john.doe@example.com	127.0.0.1	38452	2021-December-13	16:09:41	
+
+LOGIN	FAIL	Password incorrect	john.doe@example.com	127.0.0.1	38456	2021-December-13	16:10:38	
+
+LOGIN	SUCCESS	john.doe@example.com	127.0.0.1	38514	2021-December-13	16:37:23	
+
+REGISTER	FAIL	 email already exists	127.0.0.1	36776	2021-December-14	18:02:35	
+
+REGISTER	FAIL	 email already exists	127.0.0.1	36784	2021-December-14	18:03:06	
+
+REGISTER	FAIL	 email already exists	127.0.0.1	36784	2021-December-14	18:03:10	
+
+REGISTER	FAIL	That email already exists, That username already exists	127.0.0.1	47400	2021-December-14	18:28:43	
+
+REGISTER	FAIL	First Name empty, Last Name empty, Email address empty, Username empty, Password field empty, Confirm Password empty	Registration not valid	127.0.0.1	47424	2021-December-14	18:50:54	
+
+REGISTER	FAIL	john.doe username already taken	127.0.0.1	47472	2021-December-14	19:25:14	
+
+REGISTER	FAIL	john.doe@example.com email already taken	127.0.0.1	47474	2021-December-14	19:25:33	
+
+REGISTER	FAIL	john.doe@example.com email already taken, john.doe username already taken	127.0.0.1	47478	2021-December-14	19:25:52	
+
+REGISTER	SUCCESS	igor.djurdjic89@gmail.com has been created	127.0.0.1	47538	2021-December-14	19:38:55	
+
+REGISTER	FAIL	First Name empty, Last Name empty, Email address empty, Username empty, Password field empty, Confirm Password empty	127.0.0.1	43870	2021-December-16	15:13:53	
+
+LOGIN	FAIL	Password incorrect	john.doe@example.com	127.0.0.1	44702	2021-December-16	20:41:44	
+
+LOGIN	SUCCESS	john.doe@example.com	127.0.0.1	44704	2021-December-16	20:41:51	
+
+REGISTER	SUCCESS	igor.djurdjic89@gmail.com has been created	127.0.0.1	44002	2021-December-17	19:39:33	
+
+LOGIN	FAIL	Email address incorrect	igor.djurdjic89@gmail.com	127.0.0.1	44024	2021-December-17	19:41:48	
+
+LOGIN	FAIL	Email address incorrect	igor.djurdjic89@gmail.com	127.0.0.1	44026	2021-December-17	19:41:57	
+
+REGISTER	SUCCESS	igor.djurdjic89@gmail.com has been created	127.0.0.1	44036	2021-December-17	19:42:53	
+
+LOGIN	FAIL	Email address incorrect	igor.djurdjic89@gmail.com	127.0.0.1	44044	2021-December-17	19:43:45	
+
+LOGIN	FAIL	Email address incorrect	igor.djurdjic89@gmail.com	127.0.0.1	44046	2021-December-17	19:43:54	
+
+LOGIN	FAIL	Email address incorrect	igor.djurdjic89@gmail.com	127.0.0.1	44048	2021-December-17	19:44:18	
+
+LOGIN	FAIL	Email address incorrect	igor.djurdjic89@gmail.com	127.0.0.1	44050	2021-December-17	19:44:24	
+
+REGISTER	SUCCESS	igor.djurdjic89@gmail.com has been created	127.0.0.1	44132	2021-December-17	19:59:10	
+
+LOGIN	SUCCESS	igor.djurdjic89@gmail.com	127.0.0.1	44158	2021-December-17	20:03:23	
+
+LOGIN	FAIL	Password incorrect	john.doe@example.com	127.0.0.1	54328	2021-December-20	13:15:24	
+
+LOGIN	SUCCESS	john.doe@example.com	127.0.0.1	54330	2021-December-20	13:15:30	
+
+LOGIN	SUCCESS	john.doe@example.com	127.0.0.1	59544	2021-December-21	06:49:46	
+
+LOGIN	SUCCESS	john.doe@example.com	127.0.0.1	59600	2021-December-21	07:21:31	
+
+LOGIN	SUCCESS	john.doe@example.com	127.0.0.1	59604	2021-December-21	07:23:08	
+
+LOGIN	SUCCESS	john.doe@example.com	127.0.0.1	59614	2021-December-21	07:24:13	
+
+LOGIN	SUCCESS	john.doe@example.com	127.0.0.1	59622	2021-December-21	07:24:55	
+
+LOGIN	SUCCESS	john.doe@example.com	127.0.0.1	59684	2021-December-21	07:50:32	
+
+LOGIN	SUCCESS	john.doe@example.com	127.0.0.1	59802	2021-December-21	08:58:50	
+
+LOGIN	SUCCESS	john.doe@example.com	127.0.0.1	52080	2022-January-12	21:24:31	
+
+LOGIN	SUCCESS	john.doe@example.com	127.0.0.1	34290	2022-January-17	06:43:18	
+
+LOGIN	SUCCESS	john.doe@example.com	127.0.0.1	34884	2022-January-17	09:19:38	
+
+LOGIN	SUCCESS	john.doe@example.com	127.0.0.1	59418	2022-January-17	10:14:17	
+
+LOGIN	SUCCESS	john.doe@example.com	127.0.0.1	53970	2022-January-21	10:02:27	
+
+LOGIN	SUCCESS	john.doe@example.com	127.0.0.1	34480	2022-January-25	14:47:04	
+
+LOGIN	SUCCESS	john.doe@example.com	127.0.0.1	34626	2022-January-25	18:38:31	
+
+LOGIN	SUCCESS	john.doe@example.com	127.0.0.1	42082	2022-January-26	14:19:39	
+
+USER LOGIN	SUCCESS	john.doe@example.com	127.0.0.1	42342	2022-January-26	16:57:56	
+
+REGISTRATION	SUCCESS	igor.djurdjic89@gmail.com has been created	127.0.0.1	53706	2022-January-27	17:31:34	
+
+REGISTRATION	SUCCESS	igor.djurdjic89@gmail.com has been created	127.0.0.1	53712	2022-January-27	17:32:50	
+
+REGISTRATION	FAIL	First Name empty, Last Name empty, Email address empty, Username empty, Password field empty, Confirm Password empty	127.0.0.1	53714	2022-January-27	17:44:38	
+
+REGISTRATION	SUCCESS	igor_djurdjic@netex.ro has been created	127.0.0.1	53722	2022-January-27	21:37:39	
+
+REGISTRATION	SUCCESS	igor_djurdjic@netex.ro has been created	127.0.0.1	53730	2022-January-27	21:38:59	
+
+USER LOGIN	SUCCESS	john.doe@example.com	127.0.0.1	48626	2022-January-28	15:29:24	
+
+USER LOGIN	SUCCESS	john.doe@example.com	127.0.0.1	48908	2022-January-28	18:44:02	
+
+USER LOGIN	SUCCESS	john.doe@example.com	127.0.0.1	48980	2022-January-28	19:23:31	
+
+USER LOGIN	SUCCESS	john.doe@example.com	127.0.0.1	48998	2022-January-28	19:33:23	
+
+USER LOGIN	SUCCESS	john.doe@example.com	127.0.0.1	49062	2022-January-28	20:18:34	
+
+USER LOGIN	SUCCESS	john.doe@example.com	127.0.0.1	49066	2022-January-28	20:22:14	
+
+USER LOGIN	SUCCESS	john.doe@example.com	127.0.0.1	49070	2022-January-28	20:29:02	
+
+REGISTRATION	SUCCESS	griimmjoww@gmail.com has been created	127.0.0.1	44208	2022-January-31	08:13:37	
+
+REGISTRATION	SUCCESS	griimmjoww@gmail.com has been created	127.0.0.1	44222	2022-January-31	08:21:11	
+
+USER LOGIN	FAIL	Email address invalid	benson890610	127.0.0.1	44240	2022-January-31	08:23:16	
+
+USER LOGIN	SUCCESS	griimmjoww@gmail.com	127.0.0.1	44242	2022-January-31	08:23:27	
+
+REGISTRATION	SUCCESS	griimmjoww@gmail.com has been created	127.0.0.1	44278	2022-January-31	08:38:00	
+
+REGISTRATION	SUCCESS	griimmjoww@gmail.com has been created	127.0.0.1	44286	2022-January-31	08:39:16	
+
+USER ACCOUNT ACTIVATION	FAIL	griimmjoww@gmail.com token has expired	127.0.0.1	44288	2022-January-31	09:30:11	
+
+USER ACCOUNT ACTIVATION	SUCCESS	griimmjoww@gmail.com	127.0.0.1	44294	2022-January-31	09:30:56	
+
+USER LOGIN	SUCCESS	griimmjoww@gmail.com	127.0.0.1	44336	2022-January-31	10:09:20	
+
+USER LOGIN	SUCCESS	griimmjoww@gmail.com	127.0.0.1	44434	2022-January-31	11:04:14	
+
+USER LOGIN	SUCCESS	john.doe@example.com	127.0.0.1	44480	2022-January-31	11:26:14	
+
+USER LOGIN	SUCCESS	john.doe@example.com	127.0.0.1	48818	2022-February-1	07:15:24	
+
+USER LOGIN	SUCCESS	griimmjoww@gmail.com	127.0.0.1	48960	2022-February-1	07:36:45	
+
+USER LOGIN	SUCCESS	john.doe@example.com	127.0.0.1	49086	2022-February-1	08:06:47	
+
+USER LOGIN	SUCCESS	john.doe@example.com	127.0.0.1	49556	2022-February-1	11:42:47	
+
+USER LOGIN	SUCCESS	john.doe@example.com	127.0.0.1	57498	2022-February-2	08:32:11	
+
+REGISTRATION	SUCCESS	kevin_smith@example.com has been created	127.0.0.1	57574	2022-February-2	08:50:22	
+
+USER LOGIN	SUCCESS	kevin_smith@example.com	127.0.0.1	57576	2022-February-2	08:51:36	
+
+USER LOGIN	SUCCESS	kevin_smith@example.com	127.0.0.1	57578	2022-February-2	08:51:55	
+
+USER LOGIN	SUCCESS	griimmjoww@gmail.com	127.0.0.1	57610	2022-February-2	08:55:30	
+
+USER LOGIN	SUCCESS	kevin_smith@example.com	127.0.0.1	57628	2022-February-2	08:58:09	
+
+USER LOGIN	SUCCESS	griimmjoww@gmail.com	127.0.0.1	57630	2022-February-2	08:58:31	
+
+USER LOGIN	SUCCESS	kevin_smith@example.com	127.0.0.1	57638	2022-February-2	09:00:06	
+
+USER LOGIN	SUCCESS	griimmjoww@gmail.com	127.0.0.1	57646	2022-February-2	09:00:32	
+
+USER LOGIN	SUCCESS	john.doe@example.com	127.0.0.1	57800	2022-February-2	09:28:47	
+
+USER LOGIN	SUCCESS	griimmjoww@gmail.com	127.0.0.1	57890	2022-February-2	10:01:32	
+
+USER LOGIN	SUCCESS	john.doe@example.com	127.0.0.1	58306	2022-February-2	13:35:12	

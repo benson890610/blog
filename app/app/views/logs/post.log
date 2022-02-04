@@ -1,0 +1,100 @@
+
+POST CREATE	FAIL	Title field empty	127.0.0.1	34878	2022-January-25	20:36:11	
+
+POST CREATE	FAIL	File . not supported	john.doe@example.com	127.0.0.1	34904	2022-January-25	20:40:28	
+
+POST CREATE	FAIL	Title field empty, Description field empty	john.doe@example.com	127.0.0.1	34924	2022-January-25	21:08:52	
+
+POST CREATE	FAIL	Title field empty, Description field empty, Category value manualy changed to unknown numeric value	john.doe@example.com	127.0.0.1	34934	2022-January-25	21:10:56	
+
+POST CREATE	FAIL	File .gif not supported	john.doe@example.com	127.0.0.1	34942	2022-January-25	21:21:08
+
+POST CREATE	SUCCESS	ADDED IMAGE	john.doe@example.com	127.0.0.1	34956	2022-January-25	21:23:01	
+
+POST REMOVE	FAIL	Post id manualy changed	john.doe@example.com	127.0.0.1	35060	2022-January-25	21:51:09	
+
+POST CREATE	SUCCESS	ADDED IMAGE	john.doe@example.com	127.0.0.1	42098	2022-January-26	14:33:13	
+
+POST CREATE	SUCCESS	griimmjoww@gmail.com	127.0.0.1	49030	2022-February-1	07:47:20	
+
+POST UPDATE	SUCCESS	127.0.0.1	49668	2022-February-1	12:21:17	
+
+POST UPDATE	SUCCESS	127.0.0.1	49696	2022-February-1	12:50:21	
+
+POST IMAGE DELETE	SUCCESS	127.0.0.1	49696	2022-February-1	12:50:21	
+
+POST UPDATE	FAIL	Title field empty, Description field empty	127.0.0.1	49704	2022-February-1	12:53:47	
+
+POST UPDATE	FAIL	Title field empty, Description field empty	127.0.0.1	49708	2022-February-1	12:54:35	
+
+POST UPDATE	FAIL	Title field empty, Description field empty	127.0.0.1	49712	2022-February-1	12:56:04	
+
+POST UPDATE	SUCCESS	127.0.0.1	49746	2022-February-1	13:23:30	
+
+POST UPDATE	FAIL	Title field empty, Description field empty	127.0.0.1	49760	2022-February-1	13:24:36	
+
+POST UPDATE	FAIL	Title field empty, Description field empty	127.0.0.1	49770	2022-February-1	13:27:34	
+
+POST UPDATE	SUCCESS	127.0.0.1	49770	2022-February-1	13:27:38	
+
+POST UPDATE	FAIL	Title field empty, Description field empty	127.0.0.1	49778	2022-February-1	13:30:04	
+
+POST CREATE	FAIL	127.0.0.1	57638	2022-February-2	09:00:11	
+
+POST CREATE	FAIL	127.0.0.1	57646	2022-February-2	09:00:38	
+
+POST CREATE	SUCCESS	griimmjoww@gmail.com	127.0.0.1	57648	2022-February-2	09:01:42	
+
+POST CREATE	FAIL	127.0.0.1	57650	2022-February-2	09:01:53	
+
+POST CREATE	SUCCESS	griimmjoww@gmail.com	127.0.0.1	57652	2022-February-2	09:02:06	
+
+POST CREATE	FAIL	127.0.0.1	57772	2022-February-2	09:20:26	
+
+POST CREATE	SUCCESS	griimmjoww@gmail.com	127.0.0.1	57774	2022-February-2	09:20:41	
+
+POST CREATE	FAIL	127.0.0.1	57800	2022-February-2	09:28:51	
+
+POST CREATE	SUCCESS	john.doe@example.com	127.0.0.1	57802	2022-February-2	09:29:06	
+
+POST CREATE	FAIL	127.0.0.1	57808	2022-February-2	09:30:41	
+
+POST CREATE	SUCCESS	john.doe@example.com	127.0.0.1	57810	2022-February-2	09:30:54	
+
+POST CREATE	FAIL	127.0.0.1	57816	2022-February-2	09:32:06	
+
+POST CREATE	FAIL	127.0.0.1	57822	2022-February-2	09:33:23	
+
+POST CREATE	FAIL	127.0.0.1	57828	2022-February-2	09:34:27	
+
+POST CREATE	FAIL	127.0.0.1	57830	2022-February-2	09:34:36	
+
+POST CREATE	SUCCESS	john.doe@example.com	127.0.0.1	57834	2022-February-2	09:34:44	
+
+POST CREATE	FAIL	127.0.0.1	57856	2022-February-2	09:38:42	
+
+POST CREATE	SUCCESS	john.doe@example.com	127.0.0.1	57858	2022-February-2	09:38:59	
+
+POST CREATE	FAIL	127.0.0.1	57886	2022-February-2	10:01:07	
+
+POST CREATE	FAIL	127.0.0.1	57890	2022-February-2	10:01:38	
+
+POST CREATE	SUCCESS	ADDED IMAGE	griimmjoww@gmail.com	127.0.0.1	57892	2022-February-2	10:02:11	
+
+POST CREATE	FAIL	127.0.0.1	58250	2022-February-2	12:23:41	
+
+POST UPDATE	FAIL	Title field empty	127.0.0.1	58272	2022-February-2	12:33:43	
+
+POST UPDATE	FAIL	Title field empty, Description field empty	127.0.0.1	58274	2022-February-2	12:33:57	
+
+POST UPDATE	FAIL	Title field empty, Description field empty	127.0.0.1	58276	2022-February-2	12:34:21	
+
+POST UPDATE	FAIL	Title field empty, Description field empty	127.0.0.1	58280	2022-February-2	12:35:26	
+
+POST UPDATE	FAIL	Title field empty, Description field empty	127.0.0.1	58282	2022-February-2	12:35:43	
+
+POST UPDATE	FAIL	Title field empty, Description field empty	127.0.0.1	58290	2022-February-2	12:37:53	
+
+POST UPDATE	FAIL	Title field empty, Description field empty	127.0.0.1	58294	2022-February-2	12:40:55	
+
+POST UPDATE	FAIL	Title field empty, Description field empty	127.0.0.1	58300	2022-February-2	12:41:31	
