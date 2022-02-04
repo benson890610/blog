@@ -20,6 +20,7 @@ BLOG APP Includes:
   + Blog CRUD                   Completed
   + Blog pagination             Completed
   + Blog category search        Completed
+  + Blog post page views        Completed
   + Blog REST_API methods       Completed
   + Blog Auth and Authorization Completed
   + Log tracking site behaviour Completed
