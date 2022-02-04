@@ -12,8 +12,8 @@ Languages used for this APP:
 
 BLOG APP Includes:
   ```dif
-  - Login (with Remember me)    Completed
-  - Registration                Completed
+  - +Login (with Remember me)    Completed
+  - +Registration                Completed
   - Email confirmation          Completed
   - Password Reset              Completed
   - Blog CRUD                   Completed
