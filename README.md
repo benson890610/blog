@@ -11,7 +11,7 @@ Languages used for this APP:
   - HTML 5
 
 BLOG APP Includes:
-  - Login (with Remember me)    Completed
+  - Login (with Remember me)    (Completed)
   - Registration                Completed
   - Email confirmation          Completed
   - Password Reset              Completed
@@ -23,3 +23,5 @@ BLOG APP Includes:
   - Blog Post Like and Dislike  Uncompleted
   - Blog Auth and Authorization Completed
   - Admin CMS                   Uncompleted
+
+- ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `#f03c15`
