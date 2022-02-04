@@ -22,6 +22,7 @@ BLOG APP Includes:
   + Blog category search        Completed
   + Blog REST_API methods       Completed
   + Blog Auth and Authorization Completed
+  + Log tracking site behaviour Completed
   ```
   ```dif
   - Blog Comments CRUD            Uncompleted
