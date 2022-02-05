@@ -263,12 +263,16 @@ class PostsController extends Controller {
     // ======================================================== //
     public function my_posts($id = 0) {
         if(!is_basic_ajax_request()) {
+            header('Access-Control-Allow-Origin: ' . $_ENV['APP_SRC'] );
+            header('Access-Control-Allow-Methods: GET');
             header('Content-Type: application/json');
             header($_SERVER['SERVER_PROTOCOL'] . ' 404 Page Not Found');
             echo json_encode(['response' => '404', 'message' => 'Page Not Found']);
             exit;
         }
         if(!is_whole_positive_integer($id) || !Auth::user_post($id)) {
+            header('Access-Control-Allow-Origin: ' . $_ENV['APP_SRC'] );
+            header('Access-Control-Allow-Methods: GET');
             header('Content-Type: application/json');
             header($_SERVER['SERVER_PROTOCOL'] . ' 403 Access Forbidden');
             echo json_encode(['response' => 'unauthorized', 'posts' => $this->post->all, 'total' => $this->post->total]);
@@ -287,7 +291,9 @@ class PostsController extends Controller {
 
             }, $this->post->all);
         }
-
+        
+        header('Access-Control-Allow-Origin: ' . $_ENV['APP_SRC'] );
+        header('Access-Control-Allow-Methods: GET');
         header('Content-Type: application/json');
         header($_SERVER['SERVER_PROTOCOL'] . ' 200 OK');
         echo json_encode(['response' => 'valid', 'posts' => $this->post->all, 'total' => $this->post->total]);
@@ -297,6 +303,8 @@ class PostsController extends Controller {
     public function page($page) {
         if(is_valid_ajax_request('posts')) {
             if(!is_whole_positive_integer($page)) {
+                header('Access-Control-Allow-Origin: ' . $_ENV['APP_SRC'] );
+                header('Access-Control-Allow-Methods: GET');
                 header('Content-Type: application/json');
                 header($_SERVER['SERVER_PROTOCOL'] . ' 404 Page Not Found');
                 echo json_encode(['response' => '404', 'message' => 'Page Not Found']);
@@ -314,7 +322,9 @@ class PostsController extends Controller {
                 $post['created_at'] = create_readable_date($post['created_at']); 
                 return $post;
             }, $this->post->all);
-
+            
+            header('Access-Control-Allow-Origin: ' . $_ENV['APP_SRC'] );
+            header('Access-Control-Allow-Methods: GET');
             header('Content-Type: application/json');
             header($_SERVER['SERVER_PROTOCOL'] . ' 200 OK');
             echo json_encode([
@@ -325,7 +335,9 @@ class PostsController extends Controller {
             ]);
             exit;
         }
-
+        
+        header('Access-Control-Allow-Origin: ' . $_ENV['APP_SRC'] );
+        header('Access-Control-Allow-Methods: GET');
         header('Content-Type: application/json');
         header($_SERVER['SERVER_PROTOCOL'] . '404 Page Not Found');
         echo json_encode(['response' => '404', 'message' => 'Page Not Found']);
@@ -344,7 +356,9 @@ class PostsController extends Controller {
                 $post['created_at'] = create_readable_date($post['created_at']);
                 return $post;
             }, $this->post->all);
-
+            
+            header('Access-Control-Allow-Origin: ' . $_ENV['APP_SRC'] );
+            header('Access-Control-Allow-Methods: GET');
             header('Content-Type: application/json');
             header($_SERVER['SERVER_PROTOCOL'] . ' 200 OK');
             echo json_encode([
@@ -356,7 +370,9 @@ class PostsController extends Controller {
             ]);
             exit;
         }
-
+        
+        header('Access-Control-Allow-Origin: ' . $_ENV['APP_SRC'] );
+        header('Access-Control-Allow-Methods: GET');
         header('Content-Type: application/json');
         header($_SERVER['SERVER_PROTOCOL'] . ' 404 Page Not Found');
         echo json_encode(['response' => '404', 'message' => 'Page Not Found']);
