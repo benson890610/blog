@@ -1,8 +1,8 @@
 <?php 
 
 /*
-define('APP_ROOT', "/var/www/html/php/projects/blog/app/");
-define('APP_SRC', "http://blogdevcommunity.test/");
-define('APP_NAME', "BlogDevCommunity");
-define('APP_AUTHOR', "Igor Djurdjic");
+define('APP_ROOT', "__APPLICATION_APP_ROOT_DIR__");
+define('APP_SRC', "__APPLICATION_FULL_DOMAIN_NAME__");
+define('APP_NAME', "__APPLICATION_NAME__");
+define('APP_AUTHOR', "__APPLICATION_AUTHOR__");
 */
