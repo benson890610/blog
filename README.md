@@ -26,11 +26,11 @@ BLOG APP Includes:
   + Log tracking site behaviour Completed
   ```
   ```dif
-  - Blog Comments CRUD            Uncompleted
-  - Blog Post Like and Dislike    Uncompleted
-  - User Profile Preview          Uncompleted
-  - User Feedback Rating          Uncompleted
-  - Admin CMS                     Uncompleted
+  - Post Comments CRUD     Uncompleted
+  - Post Like and Dislike  Uncompleted
+  - User Profile Preview   Uncompleted
+  - User Feedback Rating   Uncompleted
+  - Admin CMS              Uncompleted
   ```
 
 
