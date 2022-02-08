@@ -31,9 +31,5 @@ function is_whole_positive_integer($num) {
         return true;
     }
 
-    die("WRONG");
-
-
-
     return false;
 }
