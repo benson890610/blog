@@ -50,6 +50,8 @@ class UsersController extends Controller {
         $input->filter(['email' => FILTER_SANITIZE_EMAIL, 'password' => FILTER_SANITIZE_STRING, 'remember_me' => FILTER_SANITIZE_STRING]);
         $input->check(['email', 'password']);
         
+        if($input->invalid) redirect('');
+        
         $this->user->email    = $input->post('email')->retrieve();
         $this->user->password = $input->post('password')->retrieve();
         $this->user->remember = $input->remember_me();
