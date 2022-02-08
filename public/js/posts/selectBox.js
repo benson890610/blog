@@ -163,7 +163,7 @@ function displaySearchPost(post) {
 				</div>
 				<hr>
 	            <div>
-	                <a class="btn btn-outline-primary" href="${APP_SRC}posts/show/${post.post_id}">Read More</a>
+	                <a class="btn btn-outline-primary" href="${APP_SRC}post/show/${post.post_id}">Read More</a>
 	            </div>
 			</div>
 		</div>`;
