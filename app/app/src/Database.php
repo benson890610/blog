@@ -45,10 +45,11 @@ class Database {
             $dsn = "{$this->driver}:host={$this->host};dbname={$this->dbname};port={$this->port};charset={$this->charset}";
 
             $this->pdo = new \PDO($dsn, $this->user, $this->pass);
-            $this->pdo->setAttribute(\PDO::ATTR_ERRMODE,            \PDO::ERRMODE_EXCEPTION);
-            $this->pdo->setAttribute(\PDO::ATTR_DEFAULT_FETCH_MODE, \PDO::FETCH_ASSOC);
-            $this->pdo->setAttribute(\PDO::ATTR_PERSISTENT,         true);
-            $this->pdo->setAttribute(\PDO::ATTR_EMULATE_PREPARES,   false);
+            $this->pdo->setAttribute(\PDO::ATTR_ERRMODE,                  \PDO::ERRMODE_EXCEPTION);
+            $this->pdo->setAttribute(\PDO::ATTR_DEFAULT_FETCH_MODE,       \PDO::FETCH_ASSOC);
+            $this->pdo->setAttribute(\PDO::MYSQL_ATTR_USE_BUFFERED_QUERY, true);
+            $this->pdo->setAttribute(\PDO::ATTR_PERSISTENT,               true);
+            $this->pdo->setAttribute(\PDO::ATTR_EMULATE_PREPARES,         false);
 
         } catch(\PDOException $e) {
             trigger_error($e->getMessage());
@@ -79,7 +80,7 @@ class Database {
 
     public function query_all(string $sql_command, $fetch_mode = null) {
         if($this->pdo instanceof \PDO) {
-            return $this->pdo->query($sql_command)->fetchAll();
+            return $this->pdo->query($sql_command)->fetchAll($fetch_mode);
         }
 
         trigger_error('Database Error: query_all method, pdo attribute is not an instance of \\PDO class');
