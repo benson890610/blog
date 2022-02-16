@@ -287,7 +287,9 @@ class PostsController extends Controller {
 
             }, $this->post->all);
         }
-
+        
+        header('Access-Control-Allow-Origin: ' . $_ENV['APP_SRC']);
+        header('Access-Control-Allow-Methods: GET');
         header('Content-Type: application/json');
         header($_SERVER['SERVER_PROTOCOL'] . ' 200 OK');
         echo json_encode(['response' => 'valid', 'posts' => $this->post->all, 'total' => $this->post->total]);
@@ -314,7 +316,9 @@ class PostsController extends Controller {
                 $post['created_at'] = create_readable_date($post['created_at']); 
                 return $post;
             }, $this->post->all);
-
+            
+            header('Access-Control-Allow-Origin: ' . $_ENV['APP_SRC']);
+            header('Access-Control-Allow-Methods: GET');
             header('Content-Type: application/json');
             header($_SERVER['SERVER_PROTOCOL'] . ' 200 OK');
             echo json_encode([
@@ -344,7 +348,9 @@ class PostsController extends Controller {
                 $post['created_at'] = create_readable_date($post['created_at']);
                 return $post;
             }, $this->post->all);
-
+            
+            header('Access-Control-Allow-Origin: ' . $_ENV['APP_SRC']);
+            header('Access-Control-Allow-Methods: GET');
             header('Content-Type: application/json');
             header($_SERVER['SERVER_PROTOCOL'] . ' 200 OK');
             echo json_encode([
